@@ -155,11 +155,16 @@ body {
   color: white;
   margin: 0;
 }
-/* line 133, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
+.first-slide h2.yellow {
+  color: #ffff33;
+  margin: 1em auto 0.5em;
+}
+/* line 137, ../sass/styles.scss */
 .first-slide .download-link {
   margin-top: 3em;
 }
-/* line 136, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .first-slide .content {
   display: table-cell;
   vertical-align: middle;
@@ -167,46 +172,70 @@ body {
   padding-right: 38%;
 }
 
-/* line 145, ../sass/styles.scss */
+/* line 150, ../sass/styles.scss */
+.social-icons {
+  text-align: center;
+  margin-bottom: 2em;
+}
+/* line 153, ../sass/styles.scss */
+.social-icons > a {
+  display: inline-block;
+  width: 3em;
+  -webkit-transition: all 0.2s;
+  -moz-transition: all 0.2s;
+  -o-transition: all 0.2s;
+  transition: all 0.2s;
+}
+/* line 157, ../sass/styles.scss */
+.social-icons > a img {
+  width: 100%;
+}
+/* line 160, ../sass/styles.scss */
+.social-icons > a:hover {
+  filter: alpha(opacity=90);
+  opacity: 0.9;
+}
+
+/* line 167, ../sass/styles.scss */
 .content {
   height: 100%;
 }
-/* line 147, ../sass/styles.scss */
+/* line 169, ../sass/styles.scss */
 .content h1 {
   line-height: 1em;
   margin-top: 0;
 }
-/* line 151, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 .content p {
   margin: 1em auto;
 }
 
-/* line 158, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 #lr-widget {
   width: 100%;
   margin: 0 auto 4em;
   position: relative;
 }
-/* line 162, ../sass/styles.scss */
+/* line 184, ../sass/styles.scss */
 #lr-widget .LR-content {
   max-width: 100% !important;
 }
-/* line 165, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 #lr-widget .LR-box-wrapper {
   width: 90% !important;
   margin: 0 auto !important;
 }
-/* line 169, ../sass/styles.scss */
+/* line 191, ../sass/styles.scss */
 #lr-widget input[type="email"].LR-sign-up-input {
   width: 75% !important;
 }
-/* line 172, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 #lr-widget input[type="submit"].LR-sign-up-submit {
   position: absolute;
 }
 
 @media (max-width: 480px) {
-  /* line 179, ../sass/styles.scss */
+  /* line 201, ../sass/styles.scss */
   .content {
     top: 25px;
     margin-right: 0;
@@ -214,23 +243,23 @@ body {
     margin-top: 0;
     min-width: 150px;
   }
-  /* line 185, ../sass/styles.scss */
+  /* line 207, ../sass/styles.scss */
   .content p {
     font-size: 18px;
     margin: 0.5em auto;
   }
 
-  /* line 191, ../sass/styles.scss */
+  /* line 213, ../sass/styles.scss */
   #lr-widget {
     margin: 0 auto 2.5em;
   }
-  /* line 193, ../sass/styles.scss */
+  /* line 215, ../sass/styles.scss */
   #lr-widget input[type="email"].LR-sign-up-input {
     width: 65% !important;
     padding: 8px !important;
     font-size: 13px;
   }
-  /* line 198, ../sass/styles.scss */
+  /* line 220, ../sass/styles.scss */
   #lr-widget input[type="submit"].LR-sign-up-submit {
     font-size: 13px;
     min-width: 40px;
