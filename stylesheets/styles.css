@@ -277,7 +277,7 @@ body {
   }
   /* line 236, ../sass/styles.scss */
   .first-slide > .restrict-width {
-    padding-bottom: 9em;
+    padding-bottom: 17em;
     padding-top: 3em;
   }
   /* line 240, ../sass/styles.scss */
@@ -301,10 +301,13 @@ body {
   /* line 255, ../sass/styles.scss */
   #lr-widget {
     margin: 0 auto 5em;
+    position: absolute;
+    bottom: 11em;
+    width: 90%;
   }
 }
 @media (max-width: 480px) {
-  /* line 262, ../sass/styles.scss */
+  /* line 264, ../sass/styles.scss */
   .content {
     top: 25px;
     margin-right: 0;
@@ -312,19 +315,19 @@ body {
     margin-top: 0;
     min-width: 150px;
   }
-  /* line 268, ../sass/styles.scss */
+  /* line 270, ../sass/styles.scss */
   .content p {
     font-size: 18px;
     margin: 0.5em auto;
   }
 
-  /* line 275, ../sass/styles.scss */
+  /* line 277, ../sass/styles.scss */
   #lr-widget input[type="email"].LR-sign-up-input {
     width: 80% !important;
     padding: 8px !important;
     font-size: 13px;
   }
-  /* line 280, ../sass/styles.scss */
+  /* line 282, ../sass/styles.scss */
   #lr-widget input[type="submit"].LR-sign-up-submit {
     font-size: 13px;
     min-width: 40px;
