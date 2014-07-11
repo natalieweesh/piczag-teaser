@@ -45,7 +45,7 @@ body {
 .piczag-logo {
   display: block;
   width: 82%;
-  margin: -31px auto -92px;
+  margin: -31px auto 0;
 }
 
 /* line 50, ../sass/styles.scss */
@@ -244,8 +244,14 @@ body {
   position: absolute;
 }
 
-@media (max-width: 480px) {
+@media (max-width: 855px) {
   /* line 210, ../sass/styles.scss */
+  .piczag-logo {
+    margin: -30px auto -36px;
+  }
+}
+@media (max-width: 480px) {
+  /* line 216, ../sass/styles.scss */
   .content {
     top: 25px;
     margin-right: 0;
@@ -253,23 +259,23 @@ body {
     margin-top: 0;
     min-width: 150px;
   }
-  /* line 216, ../sass/styles.scss */
+  /* line 222, ../sass/styles.scss */
   .content p {
     font-size: 18px;
     margin: 0.5em auto;
   }
 
-  /* line 222, ../sass/styles.scss */
+  /* line 228, ../sass/styles.scss */
   #lr-widget {
     margin: 0 auto 2.5em;
   }
-  /* line 224, ../sass/styles.scss */
+  /* line 230, ../sass/styles.scss */
   #lr-widget input[type="email"].LR-sign-up-input {
     width: 65% !important;
     padding: 8px !important;
     font-size: 13px;
   }
-  /* line 229, ../sass/styles.scss */
+  /* line 235, ../sass/styles.scss */
   #lr-widget input[type="submit"].LR-sign-up-submit {
     font-size: 13px;
     min-width: 40px;
