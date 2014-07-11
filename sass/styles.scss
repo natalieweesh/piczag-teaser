@@ -218,6 +218,10 @@ body {
     height: auto;
     width: auto;
   }
+  .piczag-logo {
+    margin: -31px auto 2em;
+    width: 95%;
+  }
   .first-slide {
     .content {
       display: block;
@@ -234,10 +238,13 @@ body {
       padding-bottom: 9em;
       padding-top: 3em;
     }
-    h2.yellow {
-      position: absolute;
-      bottom: 4em;
-      width: 90%;
+    h2 {
+      padding: 1em 0 0;
+      &.yellow {
+        position: absolute;
+        bottom: 4em;
+        width: 90%;
+      }
     }
   }
 
