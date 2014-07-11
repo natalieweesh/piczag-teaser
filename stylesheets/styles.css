@@ -259,40 +259,39 @@ body {
 
   /* line 221, ../sass/styles.scss */
   .piczag-logo {
-    margin: -31px auto 2em;
     width: 95%;
   }
 
-  /* line 226, ../sass/styles.scss */
+  /* line 225, ../sass/styles.scss */
   .first-slide .content {
     display: block;
     width: 90%;
     padding: 0;
     margin: 0 auto;
   }
-  /* line 232, ../sass/styles.scss */
+  /* line 231, ../sass/styles.scss */
   .first-slide .iphone {
     position: relative;
     margin: 2em auto;
     width: 80%;
   }
-  /* line 237, ../sass/styles.scss */
+  /* line 236, ../sass/styles.scss */
   .first-slide > .restrict-width {
     padding-bottom: 9em;
     padding-top: 3em;
   }
-  /* line 241, ../sass/styles.scss */
+  /* line 240, ../sass/styles.scss */
   .first-slide h2 {
     padding: 1em 0 0;
   }
-  /* line 243, ../sass/styles.scss */
+  /* line 242, ../sass/styles.scss */
   .first-slide h2.yellow {
     position: absolute;
     bottom: 4em;
     width: 90%;
   }
 
-  /* line 251, ../sass/styles.scss */
+  /* line 250, ../sass/styles.scss */
   .social-icons {
     position: absolute;
     bottom: 0;
@@ -300,7 +299,7 @@ body {
   }
 }
 @media (max-width: 480px) {
-  /* line 260, ../sass/styles.scss */
+  /* line 259, ../sass/styles.scss */
   .content {
     top: 25px;
     margin-right: 0;
@@ -308,23 +307,23 @@ body {
     margin-top: 0;
     min-width: 150px;
   }
-  /* line 266, ../sass/styles.scss */
+  /* line 265, ../sass/styles.scss */
   .content p {
     font-size: 18px;
     margin: 0.5em auto;
   }
 
-  /* line 272, ../sass/styles.scss */
+  /* line 271, ../sass/styles.scss */
   #lr-widget {
     margin: 0 auto 2.5em;
   }
-  /* line 274, ../sass/styles.scss */
+  /* line 273, ../sass/styles.scss */
   #lr-widget input[type="email"].LR-sign-up-input {
     width: 80% !important;
     padding: 8px !important;
     font-size: 13px;
   }
-  /* line 279, ../sass/styles.scss */
+  /* line 278, ../sass/styles.scss */
   #lr-widget input[type="submit"].LR-sign-up-submit {
     font-size: 13px;
     min-width: 40px;
