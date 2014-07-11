@@ -134,7 +134,7 @@ body {
   h2 {
     color: $white;
     margin: 0;
-    padding: 1em 0 0.5em;
+    padding: 0 0 0.5em;
     &.yellow {
       color: $yellow;
       margin: 1em auto 0.5em;
@@ -186,7 +186,7 @@ body {
 
 #lr-widget {
   width: 100%;
-  margin: 0 auto 4em;
+  margin: 0 auto 6em;
   position: relative;
   .LR-content {
     max-width: 100% !important;  

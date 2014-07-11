@@ -160,7 +160,7 @@ body {
 .first-slide h2 {
   color: white;
   margin: 0;
-  padding: 1em 0 0.5em;
+  padding: 0 0 0.5em;
 }
 /* line 138, ../sass/styles.scss */
 .first-slide h2.yellow {
@@ -221,7 +221,7 @@ body {
 /* line 187, ../sass/styles.scss */
 #lr-widget {
   width: 100%;
-  margin: 0 auto 4em;
+  margin: 0 auto 6em;
   position: relative;
 }
 /* line 191, ../sass/styles.scss */
