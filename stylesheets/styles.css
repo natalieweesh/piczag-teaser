@@ -310,7 +310,7 @@ body {
   }
   /* line 267, ../sass/styles.scss */
   #lr-widget input[type="email"].LR-sign-up-input {
-    width: 65% !important;
+    width: 80% !important;
     padding: 8px !important;
     font-size: 13px;
   }
