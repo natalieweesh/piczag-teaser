@@ -41,6 +41,10 @@ body {
   max-width: 900px;
 }
 
+
+.piczag-logo {
+  margin-bottom: -35px;
+}
 .iphone {
   width: 200px;
   height: auto;
@@ -129,9 +133,11 @@ body {
   h2 {
     color: $white;
     margin: 0;
+    padding: 1em 0 0.5em;
     &.yellow {
       color: $yellow;
       margin: 1em auto 0.5em;
+      padding: 0;
     }
   }
   .download-link {
